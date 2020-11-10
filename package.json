@@ -1,0 +1,19 @@
+{
+  "name": "localsdowntownmodule-service",
+  "version": "1.0.0",
+  "description": "This Module shows the information of what locals say about the community.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JLLS-Group9/LocalsDowntownModule-Service.git"
+  },
+  "author": "Jacky P",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JLLS-Group9/LocalsDowntownModule-Service/issues"
+  },
+  "homepage": "https://github.com/JLLS-Group9/LocalsDowntownModule-Service#readme"
+}
