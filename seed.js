@@ -1,6 +1,7 @@
 const fs = require('fs')
 const faker = require('faker')
-var Promise = require("bluebird");
+const Promise = require("bluebird");
+const Property = require("./database/index.js")
 
 let review = faker.lorem.sentences();
 console.log(review);
@@ -27,26 +28,26 @@ function SingleReview(id) {
   review.id = id;
   review.topic = SingleTopic();
   review.username = faker.name.firstName();
-  review.text = faker.lorem.sentences();
-  review.likes = faker.random.number();
+  review.text = faker.lorem.word(); //change to sentences later
+  review.likes = Math.floor(Math.random()*11);
   review.date = faker.date.past();
   review.resident = faker.random.boolean();
-  review.yard = faker.random.number();
-  review.car = faker.random.number();
-  review.holiday = faker.random.number();
-  review.dogs = faker.random.number();
-  review.parking = faker.random.number();
-  review.kids = faker.random.number();
-  review.atleast5years = faker.random.number();
-  review.streetslit = faker.random.number();
-  review.friendlyneighbor = faker.random.number();
-  review.sidewalks = faker.random.number();
-  review.restraunts = faker.random.number();
-  review.wildlife = faker.random.number();
-  review.walkalone = faker.random.number();
-  review.communityevent = faker.random.number();
-  review.quiet = faker.random.number();
-  review.groccery = faker.random.number();
+  review.yard = Math.floor(Math.random()*11);
+  // review.car = faker.random.number();
+  // review.holiday = faker.random.number();
+  // review.dogs = faker.random.number();
+  // review.parking = faker.random.number();
+  // review.kids = faker.random.number();
+  // review.atleast5years = faker.random.number();
+  // review.streetslit = faker.random.number();
+  // review.friendlyneighbor = faker.random.number();
+  // review.sidewalks = faker.random.number();
+  // review.restraunts = faker.random.number();
+  // review.wildlife = faker.random.number();
+  // review.walkalone = faker.random.number();
+  // review.communityevent = faker.random.number();
+  // review.quiet = faker.random.number();
+  // review.groccery = faker.random.number();
 
   return review;
 }
@@ -87,7 +88,7 @@ function SingleNeighborhood() {
   neighborhood.reviews = [];
 
   var i = 0;
-  while (i < 25) {
+  while (i < 2) { //create more reviews later
     neighborhood.reviews.push(SingleReview(i))
     i++
   }
@@ -109,16 +110,16 @@ function  SingleRecord(id) {
 
 function seedData(entries) {
   let created = 1;
-  let filetext = '';
+  let filetext = [];
 
   while (created <= entries) {
     var data = SingleRecord(created);
-    filetext+=JSON.stringify(data);
+    filetext.push(JSON.stringify(data));
     created++;
   }
 
   return new Promise ((resolve, reject) => {
-    fs.writeFile('data.txt', filetext, (err, success) => {
+    fs.writeFile('./data.js', filetext, (err, success) => {
       if (err) {
         reject(err)
       } else {
@@ -132,3 +133,31 @@ function seedData(entries) {
 seedData(1)
 .then(()=>{console.log('it worked')})
 .catch(()=>{console.log('read error message')})
+
+//
+//support mvp
+//if we want write to a db
+//test out with small data
+//get comfy w inserting data
+//csv files
+//json files
+
+// fs.readFile('./data.js', 'utf8',(err, data) => {
+//   if (err) throw err;
+//   var format = JSON.parse(data)
+//   Property.insertOne(format, (err, success) => {
+//     if (err) {
+//       console.log('err')
+//     } else {
+//       console.log('inserted')
+//     }
+//   });
+// });
+
+Property.findAll((err, success) => {
+  if (err) {
+    console.log('errr')
+  } else {
+    console.log(success[0].neighborhood.reviews)
+  }
+});
