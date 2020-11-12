@@ -4,7 +4,8 @@
   "description": "This Module shows the information of what locals say about the community.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,18 @@
   "bugs": {
     "url": "https://github.com/JLLS-Group9/LocalsDowntownModule-Service/issues"
   },
-  "homepage": "https://github.com/JLLS-Group9/LocalsDowntownModule-Service#readme"
+  "homepage": "https://github.com/JLLS-Group9/LocalsDowntownModule-Service#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6",
+    "react": "^17.0.1"
+  },
+  "devDependencies": {
+    "axios": "^0.21.0",
+    "bluebird": "^3.7.2",
+    "faker": "^5.1.0",
+    "mongoose": "^5.10.13",
+    "mysql": "^2.18.1",
+    "react-dom": "^17.0.1"
+  }
 }
