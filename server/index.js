@@ -10,12 +10,13 @@ const Property = require("../database/index.js")
 app.use(express.static('public'))
 app.use(bodyParser.json())
 
-app.get('/test' , (req, res) => {
+app.get('/api/prop7/reviews/all' , (req, res) => {
   var random = Math.floor(Math.random()*100);
-  Property.findOne(random, (err, success) => {
+  Property.findOne(7, (err, success) => {
     if (err) {
       console.log('err')
     } else {
+      console.log(JSON.stringify(success))
       res.send(success)
     }
   })

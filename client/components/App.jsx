@@ -14,8 +14,9 @@ class App extends React.Component {
  }
 
 componentDidMount() {
-  axios.get('/test')
-  .then((res)=>(this.setState({record: res.data, property:res.data[0].id, neighborhood:res.data[0].neighborhood.name, reviews:res.data[0].neighborhood.reviews})))
+  axios.get('/api/prop7/reviews/all')
+  .then((res) => (console.log(res.data[0])))
+  // .then((res)=>(this.setState({record: res.data, property:res.data[0].id, neighborhood:res.data[0].neighborhood.name, reviews:res.data[0].neighborhood.reviews})))
 }
 
 
