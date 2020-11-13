@@ -7,17 +7,18 @@ const fs = require('fs')
 const Promise = require('bluebird')
 const Property = require("../database/index.js")
 
-app.use(express.static('dist'))
+app.use(express.static('public'))
 app.use(bodyParser.json())
 
-app.get('/' , (req, res) => {
-  Property.findAll((err, success) => {
+app.get('/test' , (req, res) => {
+  var random = Math.floor(Math.random()*100);
+  Property.findOne(random, (err, success) => {
     if (err) {
-      console.log('errr')
+      console.log('err')
     } else {
-      res.send( success );
+      res.send(success)
     }
-  });
+  })
 
 })
 
