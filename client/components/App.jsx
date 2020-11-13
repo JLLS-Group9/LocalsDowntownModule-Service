@@ -14,8 +14,9 @@ class App extends React.Component {
  }
 
 componentDidMount() {
-  axios.get('/api/prop7/reviews/all')
-  .then((res) => (console.log(res.data[0])))
+   var ran = Math.floor(Math.random()*100)
+  axios.get(`/api/homes/:${ran}`)
+  .then((res) => (console.log(res.data)))
   // .then((res)=>(this.setState({record: res.data, property:res.data[0].id, neighborhood:res.data[0].neighborhood.name, reviews:res.data[0].neighborhood.reviews})))
 }
 

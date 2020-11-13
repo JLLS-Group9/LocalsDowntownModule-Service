@@ -1,7 +1,7 @@
 
 const faker = require('faker')
 const Promise = require("bluebird");
-const Property = require("./models/property.js")
+const Property = require("./db/models/property.js")
 const fs = Promise.promisifyAll(require("fs"));
 
 
