@@ -2,6 +2,7 @@ import React from 'react'
 import axios from 'axios'
 import Table from './Table.jsx'
 import styles from './style.css';
+import Demo from './Modal.jsx'
 
 class App extends React.Component {
  constructor(props) {
@@ -11,6 +12,7 @@ class App extends React.Component {
      property:null,
      neighborhood:null,
      reviews:[],
+     topic: []
    }
  }
 
@@ -29,6 +31,7 @@ componentDidMount() {
      <div className={styles.background}>
        <h2> What Locals Say about Downtown</h2>
        <h5> At least 133 Trulia users voted on each feature </h5>
+       <Demo />
        <h1> Welcome to Property:{this.state.property} </h1>
         <h4  className={styles.title} >Located in Neighborhood:{this.state.neighborhood} </h4>
         <div className={styles.review}>
