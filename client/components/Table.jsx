@@ -1,9 +1,12 @@
 import React from 'react'
 import Review from './Review.jsx'
+import style from './style.css'
+
+
 
 const Table = (props) => (
-<div>
-    <table>
+<div className={style.reviews} >
+    {/* <table>
       <thead>
         <tr>
           <th>User</th>
@@ -12,10 +15,10 @@ const Table = (props) => (
           <th>Date</th>
         </tr>
       </thead>
-      <tbody>
-      {props.datas.map((data, key) => (<Review data={data} key={key} />))}
-      </tbody>
-    </table>
+      <tbody> */}
+      {props.datas.map((data, key) => (<Review  data={data} key={key} />))}
+      {/* </tbody>
+    </table> */}
   </div>
 )
 

@@ -1,7 +1,7 @@
 
 const faker = require('faker')
 const Promise = require("bluebird");
-const Property = require("./db/models/property.js")
+const db = require("./db/models/property.js")
 const fs = Promise.promisifyAll(require("fs"));
 
 
@@ -19,7 +19,7 @@ function SingleReview(id) {
   review.id = id;
   review.topic = SingleTopic();
   review.user = faker.name.firstName();
-  review.text = faker.lorem.words(); //change to sentences later
+  review.text = faker.lorem.sentences(); //change to sentences later
   review.likes = Math.floor(Math.random()*11);
   review.date = faker.date.past();
   review.resident = faker.random.boolean();
@@ -38,7 +38,7 @@ function AllNeighborhoods() {
     neighbor.name = communities[i];
     neighbor.reviews = []
     var j = 0
-    while (j < 10) {
+    while (j < 15) {
       neighbor.reviews.push(SingleReview(j))
       j++
     }
@@ -58,6 +58,7 @@ var allcom = AllNeighborhoods();
 function SingleRecord(id) {
   let record = {};
   record.id = id
+  record.name = `${faker.address.streetAddress()} ${faker.address.streetName()}`
   let ran = Math.floor(Math.random() * 10)
   record.neighborhood = allcom[ran];
 
@@ -70,7 +71,7 @@ function seedData(entries) {
 
   console.log(SingleRecord(created))
   while (created <= entries) {
-    Property.insertOne(SingleRecord(created), (err, success) => {
+    db.insertOne(SingleRecord(created), (err, success) => {
       if (err) {
         console.log(err)
       } else {

@@ -1,0 +1,97 @@
+
+.title{
+  color:blueviolet;
+}
+
+.table {
+  text-align: center;
+  background-color: burlywood;
+  border-color: black;
+
+}
+
+
+.background {
+  background-color: rgb(238, 238, 238);
+  box-shadow: 2px 2px 10px 3px rgb(225,225,225);
+  width: fit-content;
+}
+
+
+
+
+.reviews{
+  margin: 2rem auto;
+  display:flex;
+  background-color: thistle;
+  border-style:solid;
+  width: fit-content;
+
+}
+
+.bodyreview{
+  margin: 1.75 rem auto;
+
+  border-style:solid;
+  border-color: black;
+  border: thick;
+  min-width: 300px ;
+  padding: 20px;
+  flex:1;
+}
+
+/* .headreview{
+  border-style:solid;
+  margin: 1.75rem auto;
+  width:150px;
+  height:150px;
+} */
+
+.overreview{
+  border-style:solid;
+  /* background-color:rgb(195, 152, 236); */
+  border-radius: 5%;
+  width:100%;
+  height:100%;
+  text-size-adjust: auto;
+
+  padding: .50rem auto;
+
+}
+
+.namereview{
+  font-size: 1.5rem;
+  color: rgb(50,50,50);
+  margin: .50rem;
+  text-align: center;
+  color:white;
+}
+
+.datereview{
+  font-size: .9rem;
+  color: rgb(50,50,50);
+  margin-bottom: .50rem;
+  text-align: center;
+  color:white;
+}
+
+.textreview{
+  font-size: 1.25rem;
+  color: rgb(50,50,50);
+  margin: .50rem;
+  text-align: center;
+  color:white;
+}
+
+.likesreview{
+  font-size: 1.15rem;
+  color: rgb(50,50,50);
+  padding: 0.5rem;
+  text-align: left;
+  color:white;
+}
+/* "name-review">{data.user}</div>
+  <div className = "date-review">{data.date}</div>
+  <div className="text-review">{data.text}</div>
+  <div className="likes-review" */
+
