@@ -5,6 +5,11 @@ const db = require("./db/models/property.js")
 const fs = Promise.promisifyAll(require("fs"));
 
 
+//things to reeseed add a color property
+//fix dates
+//cahnge resident from boolean to actual string
+//add the profile image
+
 const topics = ['Community', 'Dog Owners', 'Parents', 'Commute']
 
 function SingleTopic() {
