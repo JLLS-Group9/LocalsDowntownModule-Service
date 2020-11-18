@@ -9,10 +9,18 @@ const Table = (props) => {
 
 
     return (
-      <div className={style.reviewsContainer} >
+      <div>
+      <button className={style.slideLeft} onClick = {() => {
+      document.getElementById('container').scrollLeft -= 400}} >Go left</button>
+      <button className={style.slideRight} onClick = {() => {
+      document.getElementById('container').scrollLeft += 400}} >Go Right</button>
+     <div className={style.Slider} id='container' >
+
+
 
         {props.datas.map((data, key) => (<Review data={data} key={key} renderModal={props.renderModal} />))}
 
+      </div>
       </div>
     )
 }

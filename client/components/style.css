@@ -20,14 +20,14 @@
 
 
 
-.reviewsContainer{
+.Slider{
   margin: 2rem auto;
   display:flex;
   background-color: thistle;
   border-style:solid;
   height: 400px;
-  width: 100%;
-  overflow: hidden;
+  width: 800px;
+  overflow-x: scroll ;
   border-radius: 0.5%;
   flex-direction: row;
   position: relative;
@@ -35,7 +35,9 @@
   align-items: baseline;
 
 }
-
+.Slider::-webkit-scrollbar {
+  display: none;
+}
 .bodyreview{
   margin: 1.75 rem auto;
   order: 4;
@@ -186,3 +188,4 @@
 position: absolute;
 
 }
+
