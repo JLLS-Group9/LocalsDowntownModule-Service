@@ -13,9 +13,7 @@ const Review = ({data, renderModal}) => (
 
 
 
-<div className={style.bodyreview} style={{
-  'transform': `translateX(-400%)`
-}}>
+<div className={style.bodyreview} id="slider">
 <div className={style.headreview}>
 </div>
 <div className={style.overreview} style={{backgroundColor: getColour()}} onClick={()=>(renderModal(data))}>

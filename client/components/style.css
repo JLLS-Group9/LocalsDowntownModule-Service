@@ -26,11 +26,11 @@
   background-color: thistle;
   border-style:solid;
   height: 400px;
-  width: 800px;
+  width: 100%;
   overflow: hidden;
   border-radius: 0.5%;
   flex-direction: row;
-
+  position: relative;
   /* flex-wrap: wrap; */
   align-items: baseline;
 
@@ -44,7 +44,7 @@
   border: thick;
   width: 300px ;
   padding: 20px;
-  position: relative;
+
   left: 0;
   /* flex:1; */
 }
