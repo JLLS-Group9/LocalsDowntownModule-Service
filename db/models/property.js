@@ -13,9 +13,10 @@ const PropertySchema = new mongoose.Schema({
         user: {type: String},
         text: {type: String},
         likes: {type: Number},
-        date: {type: Date},
-        resident: {type:Boolean},
-        flag: {type:Boolean}
+        date: {type: String},
+        resident: {type:String},
+        flag: {type:Boolean},
+        color: {type: String}
     }]
   },
 

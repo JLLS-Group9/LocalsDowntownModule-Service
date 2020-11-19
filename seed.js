@@ -12,12 +12,21 @@ const fs = Promise.promisifyAll(require("fs"));
 
 const topics = ['Community', 'Dog Owners', 'Parents', 'Commute']
 
+const dates = ['1 year ago', '3 months ago', '2 months ago', '1 month ago', '2 weeks ago', '2 years ago', '6 months ago', '7 months ago']
+
 function SingleTopic() {
   let random = Math.floor(Math.random()*4);
   let topic = topics[random]
  return topic;
 }
 
+const colours = [
+  '#00adbb', '#fa8c68', '#ceb6ff',
+  '#740631', '#f2c430', '#052286', '#ff5e3f'
+];
+const getColour = () => colours[Math.floor(Math.random() * colours.length)];
+
+const resident = ['resident', 'vistor']
 
 function SingleReview(id) {
   let review = {}
@@ -26,10 +35,10 @@ function SingleReview(id) {
   review.user = faker.name.firstName();
   review.text = faker.lorem.sentences(); //change to sentences later
   review.likes = Math.floor(Math.random()*11);
-  review.date = faker.date.past();
-  review.resident = faker.random.boolean();
+  review.date = dates[Math.floor(Math.random()*8)];
+  review.resident = resident[Math.floor(Math.random()*2)];
   review.flag = false;
-
+  review.color = getColour();
   return review;
 }
 
@@ -43,7 +52,7 @@ function AllNeighborhoods() {
     neighbor.name = communities[i];
     neighbor.reviews = []
     var j = 0
-    while (j < 15) {
+    while (j < 24) {
       neighbor.reviews.push(SingleReview(j))
       j++
     }

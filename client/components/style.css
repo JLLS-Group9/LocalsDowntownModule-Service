@@ -49,7 +49,7 @@
 .votepercentage{
   color: rgb(0, 120, 130);
   font-weight: bold;
-  display: block;
+
   height: 48px;
   width: 22px;
   font-size: 16px;
@@ -61,6 +61,7 @@
 
 .votetext {
   align-items: center;
+  display: inline-flex;
   width:156px;
   min-height:48;
   line-height: 1.43;
@@ -255,12 +256,14 @@ font-size: 16px;
   letter-spacing: -0.1px;
   border: solid;
   border-spacing: 50px 0;
+
 }
 
 .ModalContent { /* this is  wrapper for the modal content*/
   /* position: relative; */
   background-color:white;
   height: 600px;
+  width:982px;
   margin: 3rem;  /* this is roughtly 48px from top bottom */
   padding: 0;
   border: 1px solid #888;
@@ -299,4 +302,14 @@ font-size: 16px;
   display: flex;
     flex-wrap: wrap;
   overflow: scroll; /* hides anything that goes beyond the limits of modal content*/
+}
+
+.svg{
+  width:30px;
+  height: 30px;
+  cursor: pointer;
+}
+.ModalContent2 {
+display: flex;
+flex-wrap: wrap;
 }

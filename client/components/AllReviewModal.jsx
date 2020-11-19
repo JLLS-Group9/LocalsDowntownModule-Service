@@ -21,7 +21,9 @@ const AllReviewModal = (props) => {
           <div className={style.ModalContent} >
           <span><button onClick={()=>(closeModal())} id="myModal">X</button> </span>
           <Navbar topics={props.topics} changeTopic={props.changeTopic}/>
+          <div className={style.ModalContent2}>
           {props.datas.map((data, key) => (<Review data={data} key={key} />))}
+          </div>
           </div>
         </div>
       </div>
