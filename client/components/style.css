@@ -3,70 +3,206 @@
   color:blueviolet;
 }
 
-.table {
-  text-align: center;
-  background-color: burlywood;
-  border-color: black;
-
-}
-
-
 .background {
-  background-color: rgb(238, 238, 238);
-  box-shadow: 2px 2px 10px 3px rgb(225,225,225);
-  width: relative;
+  background-color: rgb(245, 246, 247);
+  width: 992px;
+  height: 789px;
+  position: center;
+}
+
+.titletext {
+  font-family: TruliaSans;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgb(59, 65, 68);
+    margin: 5px;
+}
+
+.ptext {
+  color: rgb(134, 144, 153);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.1px;
+  margin: 0px;
+  text-align: left;
 }
 
 
+.thumb {
+
+  font-weight: bold;
+  display: block;
+  height: 24px;
+  width: 24px;
+  font-size: 16px;
+  margin-right: 10px;
+  padding-right: 10px;
+  letter-spacing: -0.1px;
+  text-align: left;
+}
+
+.votepercentage{
+  color: rgb(0, 120, 130);
+  font-weight: bold;
+  display: block;
+  height: 48px;
+  width: 22px;
+  font-size: 16px;
+  margin-right: 10px;
+  padding-right: 10px;
+  letter-spacing: -0.1px;
+  text-align: left;
+}
+
+.votetext {
+  align-items: center;
+  width:156px;
+  min-height:48;
+  line-height: 1.43;
+  color: rgb(59, 65, 68);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.1px;
+  text-align: left;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+
+.Voterbutton {
+  color: rgb(59, 65, 68);
+  background-color: rgb(255, 255, 255);
+  border-color:rgb(205, 209, 212);
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 8px 16px;
+  transition: top 0.1s ease 0s, box-shadow 0.1s ease 0s, border-color 0.1s ease 0s, background-color 0.1s ease 0s, color 0.1s ease 0s;
+  text-align: center;
+  font-weight: bold;
+  border-color: transparent;
+  margin: 0px;
+  border-radius: 8px;
+  border-width: 2px;
+  border-style: solid;
+  cursor: pointer;
+  display: inline-block;
+  text-align: left;
+}
+
+.paragraphtext{
+  color: rgb(134, 144, 153);
+  font-size: 12px;
+  line-height: 1.33;
+  outline: none;
+  text-align: left;
+}
+
+.button {
+  border-color: transparent;
+  margin: 0px;
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+  cursor: pointer;
+  display: inline-block;
+  color: rgb(59, 65, 68);
+  text-align: center;
+  font-weight: bold;
+  transition: top 0.1s ease 0s, box-shadow 0.1s ease 0s, border-color 0.1s ease 0s, background-color 0.1s ease 0s, color 0.1s ease 0s;
+  white-space: nowrap;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 8px 16px;
+}
 
 
 .Slider{
-  margin: 2rem auto;
+
   display:flex;
-  background-color: thistle;
-  border-style:solid;
-  height: 400px;
-  width: 800px;
+
+  height: 419px;
+  width: 960px;
   overflow-x: scroll ;
-  border-radius: 0.5%;
+
   flex-direction: row;
   position: relative;
   /* flex-wrap: wrap; */
   align-items: baseline;
+  scroll-behavior: smooth;
 
 }
 .Slider::-webkit-scrollbar {
   display: none;
+  scroll-behavior: smooth;
 }
-.bodyreview{
-  margin: 1.75 rem auto;
-  order: 4;
-  border-style:solid;
-  border-color: black;
-  border: thick;
-  width: 300px ;
-  padding: 20px;
 
-  left: 0;
-  /* flex:1; */
+.slideLeft{
+  position: absolute;
+  left: 400px;
+  display:none;
+  border-color: transparent;
+  margin: 0px;
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+  cursor: pointer;
+
+  color: rgb(59, 65, 68);
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 8px 16px;
 }
-/* //-173% */
-/* .headreview{
-  border-style:solid;
-  margin: 1.75rem auto;
-  width:150px;
-  height:150px;
-} */
+
+.slideRight{
+position: absolute;
+left: 500px;
+border-color: transparent;
+margin: 0px;
+border-radius: 8px;
+border-width: 1px;
+border-style: solid;
+cursor: pointer;
+display: inline-block;
+color: rgb(59, 65, 68);
+text-align: center;
+font-weight: bold;
+font-size: 16px;
+  line-height: 1.5;
+  padding: 8px 16px;
+}
+
+.slideAll {
+position: absolute;
+left: 500px;
+display: none;
+z-index: 9;
+border-color: transparent;
+margin: 0px;
+border-radius: 8px;
+border-width: 1px;
+border-style: solid;
+cursor: pointer;
+color: rgb(59, 65, 68);
+text-align: center;
+font-weight: bold;
+font-size: 16px;
+  line-height: 1.5;
+  padding: 8px 16px;
+}
 
 .overreview{
-  /* border-style:solid; */
-  /* background-color:rgb(195, 152, 236); */
   border-radius: 25px;
-  width:300px;
-  height:350px;
-  text-size-adjust: auto;
-
+  width:228px;
+  height:345px;
+  margin: 6px;
   padding: .50rem auto;
+  margin-top: 30px;
 
 }
 
@@ -85,6 +221,7 @@
   margin-bottom: .50rem;
   text-align: center;
   color:white;
+  overflow: hidden;
 }
 
 .textreview{
@@ -93,6 +230,9 @@
   margin: .50rem;
   text-align: center;
   color:white;
+  width: 206px;
+  height: 90px;
+  overflow: hidden;
 }
 
 .likesreview{
@@ -101,31 +241,7 @@
   padding: 0.5rem;
   text-align: left;
   color:white;
-}
-
-.button {
-    border-color: transparent;
-    margin: 0px;
-    border-radius: 8px;
-    border-width: 1px;
-    border-style: solid;
-    cursor: pointer;
-    display: inline-block;
-    color: rgb(59, 65, 68);
-    text-align: center;
-    font-weight: bold;
-    transition: top 0.1s ease 0s, box-shadow 0.1s ease 0s, border-color 0.1s ease 0s, background-color 0.1s ease 0s, color 0.1s ease 0s;
-    white-space: nowrap;
-    font-size: 16px;
-    line-height: 1.5;
-    padding: 8px 16px;
-
-}
-
-.staticcontainer {
-  padding: 20px;
-  border-spacing: 50px 0;
-
+  line-height: 1;
 }
 
 .list {
@@ -140,38 +256,19 @@
   border: solid;
   border-spacing: 50px 0;
 }
-/* "name-review">{data.user}</div>
-  <div className = "date-review">{data.date}</div>
-  <div className="text-review">{data.text}</div>
-  <div className="likes-review" */
-
-.thumb {
-  height: 30px;
-  width: 30px;
-  display: inline-table;
-  margin-right: 0;
-  padding-right: 0;
-
-}
-
-/* .listitem {
-  display: inline-table;
-} */
-
-.modalBackground {
-  opacity: 0;
-  pointer-events: none;
-}
 
 .ModalContent { /* this is  wrapper for the modal content*/
-  position: relative;
-  background-color:black;
+  /* position: relative; */
+  background-color:white;
+  height: 600px;
   margin: 3rem;  /* this is roughtly 48px from top bottom */
   padding: 0;
   border: 1px solid #888;
   border-radius: 20px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-  overflow: hidden; /* hides anything that goes beyond the limits of modal content*/
+  display: flex;
+    flex-wrap: wrap;
+  overflow: scroll; /* hides anything that goes beyond the limits of modal content*/
 }
 
 .Modal {
@@ -184,8 +281,22 @@
   background-color: rgba(0,0,0,0.4);  /* last value is the tranparency */
 }
 
-.backarrow{
-position: absolute;
+.SingleReview {
+  position: absolute;
+  left: 300px;
+  top: 100px;
 
 }
 
+.SingleReviewModalContent {
+  background-color:transparent;
+  height: 600px;
+  margin: 3rem;  /* this is roughtly 48px from top bottom */
+  padding: 0;
+  border: 1px solid #888;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  display: flex;
+    flex-wrap: wrap;
+  overflow: scroll; /* hides anything that goes beyond the limits of modal content*/
+}

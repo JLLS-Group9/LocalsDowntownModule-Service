@@ -1,11 +1,12 @@
 import React from 'react'
 import axios from 'axios'
-import Table from './Table.jsx'
+import ReviewListContainer from './ReviewListContainer.jsx'
 import styles from './style.css';
 import Navbar from './Navbar.jsx'
 import Votes from "./Votes.jsx"
 import Dfeatures from './allfeatures.js'
-import Modal from './Modal.jsx'
+import SingleReviewModal from './SingleReviewModal.jsx'
+import AllReviewModal from './AllReviewModal.jsx'
 
 class App extends React.Component {
  constructor(props) {
@@ -18,14 +19,16 @@ class App extends React.Component {
      reviews:[],
      features: Dfeatures.lessfeatures,
      modalstate:false,
-     modaldata:{}
+     modaldata:{},
+     AllReviewsmodalstate: false
 
    }
    this.changeTopic = this.changeTopic.bind(this)
    this.clickallfeatures = this.clickallfeatures.bind(this)
-   this.clicklessfeatures = this.clicklessfeatures.bind(this)
+
    this.renderModal = this.renderModal.bind(this)
    this.hideModal = this.hideModal.bind(this)
+   this.renderAllReviewsmodal = this.renderAllReviewsmodal.bind(this)
  }
 
 componentDidMount() {
@@ -43,11 +46,14 @@ changeTopic(event) {
 }
 
 clickallfeatures() {
-  this.setState({features: Dfeatures.allfeatures })
-}
+  if (this.state.features === Dfeatures.lessfeatures) {
+    this.setState({features: Dfeatures.allfeatures })
+    event.target.innerHTML = "See Less"
+  } else {
+    this.setState({features: Dfeatures.lessfeatures })
+    event.target.innerHTML = "See All"
+  }
 
-clicklessfeatures() {
-  this.setState({features: Dfeatures.lessfeatures })
 }
 
 renderModal(data) {
@@ -55,23 +61,28 @@ renderModal(data) {
 }
 
 hideModal() {
-  this.setState({modalstate: false, modaldata: {}})
+  this.setState({modalstate: false, modaldata: {},  AllReviewsmodalstate: false})
+}
+
+renderAllReviewsmodal() {
+  this.setState({AllReviewsmodalstate: true})
+  console.log('ive been clicked' + this.state.AllReviewsmodalstate)
 }
 
  render() {
    return (
      <div className={styles.background}>
-       <h2> What Locals Say about Downtown</h2>
-       <h5> At least 133 Trulia users voted on each feature </h5>
-       <h1> Welcome to Property: {this.state.property} </h1>
-        <h4  className={styles.title} >Located in Neighborhood:{this.state.neighborhood} </h4>
+       <h2 className={styles.titletext} > What Locals Say about Downtown</h2>
+       <h5 className={styles.ptext}> At least 133 Trulia users voted on each feature </h5>
+
         <Votes features={this.state.features} />
-        <button onClick={this.clickallfeatures} className={styles.button}> See All </button>
-        <button onClick={this.clicklessfeatures} className={styles.button}> See Less </button>
+        <button onClick={this.clickallfeatures} className={styles.Voterbutton}> See All </button>
+        <p className={styles.paragraphtext}> Learn more about our methodology. </p>
         <Navbar topics={this.state.topics} changeTopic={this.changeTopic}/>
         <div className={styles.review}>
-      <Table datas={this.state.reviews} renderModal={this.renderModal} />
-        <Modal hideModal={this.hideModal} data={this.state.modaldata} modalstate={this.state.modalstate} />
+      <ReviewListContainer datas={this.state.reviews} renderModal={this.renderModal} renderAllReviews={this.renderAllReviewsmodal}/>
+        <SingleReviewModal hideModal={this.hideModal} data={this.state.modaldata} modalstate={this.state.modalstate} />
+        <AllReviewModal AllReviewsmodalstate={this.state.AllReviewsmodalstate} datas={this.state.reviews} hideModal={this.hideModal}  topics={this.state.topics} changeTopic={this.changeTopic}/>
         </div>
       </div>
    )
