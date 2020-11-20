@@ -1,39 +1,40 @@
 const mongoose = require('mongoose')
-mongoose.connect('mongodb://localhost/Houses');
+mongoose.connect('mongodb://localhost/Houses' , { useNewUrlParser: true , useUnifiedTopology: true}, );
 
-const Property = new mongoose.Schema({
+const PropertySchema = new mongoose.Schema({
   id: {type: Number},
   name: {type:String},
-  neighborhoodId: {type: Number},
   neighborhood: {
+    id: {type: Number},
     name: String,
     reviews: [{
-        _id: {type: Number},
+        id: {type: Number},
         topic: {type: String},
         user: {type: String},
         text: {type: String},
         likes: {type: Number},
-        date: {type: Date},
-        resident: {type:Boolean},
-        flag: {type:Boolean}
+        date: {type: String},
+        resident: {type:String},
+        flag: {type:Boolean},
+        color: {type: String}
     }]
   },
 
 })
 
-var PropertyModel = mongoose.model('Property', Property);
+var Property = mongoose.model('Property', PropertySchema);
 
 function findAll(callback) {
-  PropertyModel.find({}, callback);
+  Property.find({}, callback);
 }
 
 
 function findOne(id, callback) {
-  PropertyModel.find({id: id}, callback);
+  Property.find({id: id}, callback);
 }
 
-function insertOne(Property, callback) {
-  PropertyModel.create(Property, callback);
+function insertOne(id, callback) {
+  Property.create(id, callback);
 }
 
 module.exports.findOne = findOne;
