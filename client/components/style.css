@@ -294,6 +294,7 @@ font-size: 16px;
 .SingleReviewModalContent {
   background-color:transparent;
   height: 600px;
+  width:700px;
   margin: 3rem;  /* this is roughtly 48px from top bottom */
   padding: 0;
   border: 1px solid #888;
@@ -304,10 +305,17 @@ font-size: 16px;
   overflow: scroll; /* hides anything that goes beyond the limits of modal content*/
 }
 
+.SingleReviewModalContent::-webkit-scrollbar {
+  display: none;
+
+}
+
 .svg{
   width:30px;
   height: 30px;
   cursor: pointer;
+
+
 }
 .ModalContent2 {
 display: flex;

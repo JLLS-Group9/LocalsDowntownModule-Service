@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
-app.get('/api/homes/:id', (req, res) => {
+app.get('/api/homes/:id/reviews', (req, res) => {
   Property.findOne((req.params.id), (err,data) => {
     if (err) {
       console.log(req.params.id)

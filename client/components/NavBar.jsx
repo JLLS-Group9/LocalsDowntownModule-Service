@@ -16,6 +16,7 @@ class NavBar extends React.Component {
     console.log(topics)
    this.setState({topic: topics})
     this.props.changeTopic(topics)
+
   }
 
   handleClickCommunity(topics) {

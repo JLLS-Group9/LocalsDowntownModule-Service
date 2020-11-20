@@ -35,7 +35,7 @@ class App extends React.Component {
 componentDidMount() {
    var ran = Math.ceil(Math.random()*100)
 
-  axios.get(`/api/homes/${ran}`)
+  axios.get(`/api/homes/${ran}/reviews`)
 
   .then((res)=>(this.setState({record: res.data, property:res.data[0].name, neighborhood:res.data[0].neighborhood.name, reviews:res.data[0].neighborhood.reviews, topics:res.data[0].neighborhood.reviews}), console.log(res.data[0].neighborhood.reviews)))
   .catch((err) => (console.log(err)))
