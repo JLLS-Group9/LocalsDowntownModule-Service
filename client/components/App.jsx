@@ -4,7 +4,8 @@ import ReviewListContainer from './ReviewListContainer.jsx'
 import styles from './style.css';
 import Navbar from './Navbar.jsx'
 import Votes from "./Votes.jsx"
-import Dfeatures from './allfeatures.js'
+import allfeatures from './allfeatures.jsx'
+import lessfeatures from './lessfeatures.jsx'
 import SingleReviewModal from './SingleReviewModal.jsx'
 import AllReviewModal from './AllReviewModal.jsx'
 
@@ -17,7 +18,7 @@ class App extends React.Component {
      neighborhood:null,
      topics:[],
      reviews:[],
-     features: Dfeatures.lessfeatures,
+     features: lessfeatures,
      modalstate:false,
      modaldata:{},
      AllReviewsmodalstate: false
@@ -46,11 +47,11 @@ changeTopic(event) {
 }
 
 clickallfeatures() {
-  if (this.state.features === Dfeatures.lessfeatures) {
-    this.setState({features: Dfeatures.allfeatures })
+  if (this.state.features === lessfeatures) {
+    this.setState({features: allfeatures })
     event.target.innerHTML = "See Less"
   } else {
-    this.setState({features: Dfeatures.lessfeatures })
+    this.setState({features: lessfeatures })
     event.target.innerHTML = "See All"
   }
 
