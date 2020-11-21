@@ -12,6 +12,7 @@ const Votes = (props) => (
         <th></th>
         <th></th>
         <th></th>
+
       </tr>
     </thead>
     <tbody>

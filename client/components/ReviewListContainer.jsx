@@ -10,7 +10,7 @@ const ReviewListContainer = (props) => {
 
 
     return (
-      <div>
+      <div class={style.box}>
 
      <div className={style.Slider} id='container' >
 
@@ -19,18 +19,18 @@ const ReviewListContainer = (props) => {
       </div>
       <button className={style.slideLeft} id="slideLeft" onClick = {() => {
       document.getElementById('container').scrollLeft -= 960;
-      document.getElementById('slideAll').style.display = "none";document.getElementById('slideLeft').style.display = "none";}} >Go left</button>
+      document.getElementById('slideAll').style.display = "none";document.getElementById('slideLeft').style.display = "none";}} > {"<"} </button>
       <button className={style.slideRight} onClick = {() => {
 
       document.getElementById('container').scrollLeft += 960;
       document.getElementById('slideLeft').style.display = "inline-block";
       document.getElementById('slideAll').style.display = "inline-block";
 
-      }} >Go Right</button>
+      }} >  {">"} </button>
        <button className={style.slideAll} id="slideAll"  onClick = {() => {
       console.log('hi')
       props.renderAllReviews();
-      }} >See All</button>
+      }} >+25</button>
       </div>
     )
 }

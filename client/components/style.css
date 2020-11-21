@@ -6,21 +6,27 @@
 .background {
   background-color: rgb(245, 246, 247);
   width: 992px;
-  height: 789px;
-  position: center;
+  height: 789px auto;
+  position: relative;
+  display: flexbox;
+  flex-direction: row;
+  margin: auto;
+
 }
 
 .titletext {
-  font-family: TruliaSans;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 24px;
     font-weight: bold;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.5;
     letter-spacing: normal;
-    text-align: left;
+    padding-top: 2%;
+    padding-left: 2%;
     color: rgb(59, 65, 68);
-    margin: 5px;
+    margin-bottom: 0%;
+
 }
 
 .ptext {
@@ -28,10 +34,18 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: -0.1px;
-  margin: 0px;
+  margin: 0%;
+  padding-top: 1%;
+    padding-left: 2%;
   text-align: left;
+  padding-bottom: 1%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.votecontainer{
+  padding-top: 1%;
+  padding-left: 2%;
+}
 
 .thumb {
 
@@ -49,20 +63,24 @@
 .votepercentage{
   color: rgb(0, 120, 130);
   font-weight: bold;
-
+  display: flexbox;
+  flex-direction: row;
   height: 48px;
   width: 22px;
   font-size: 16px;
   margin-right: 10px;
-  padding-right: 10px;
+  padding-right: 50px;
+  padding-left: 50px;
   letter-spacing: -0.1px;
   text-align: left;
+position: relative;
+
 }
 
 .votetext {
   align-items: center;
   display: inline-flex;
-  width:156px;
+  width:156px ;
   min-height:48;
   line-height: 1.43;
   color: rgb(59, 65, 68);
@@ -72,9 +90,13 @@
   text-align: left;
   margin-right: 10px;
   padding-right: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: relative;
 }
 
 .Voterbutton {
+  outline: none;
+
   color: rgb(59, 65, 68);
   background-color: rgb(255, 255, 255);
   border-color:rgb(205, 209, 212);
@@ -92,6 +114,9 @@
   cursor: pointer;
   display: inline-block;
   text-align: left;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-left: 2%;
+
 }
 
 .paragraphtext{
@@ -100,11 +125,15 @@
   line-height: 1.33;
   outline: none;
   text-align: left;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-bottom: 1%;
+  padding-left: 2%;
 }
 
-.button {
+.allbutton {
+  outline: none;
   border-color: transparent;
-  margin: 0px;
+  margin: 2%;
   border-radius: 8px;
   border-width: 1px;
   border-style: solid;
@@ -118,13 +147,37 @@
   font-size: 16px;
   line-height: 1.5;
   padding: 8px 16px;
+  background-color: transparent;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.button {
+  outline: none;
+  border-color: transparent;
+  margin: 0%;
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+  cursor: pointer;
+  display: inline-block;
+  color: rgb(59, 65, 68);
+  text-align: center;
+  font-weight: bold;
+  transition: top 0.1s ease 0s, box-shadow 0.1s ease 0s, border-color 0.1s ease 0s, background-color 0.1s ease 0s, color 0.1s ease 0s;
+  white-space: nowrap;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 8px 16px;
+  background-color: transparent;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
 .Slider{
-
+  position: absolute;
+  left:2%;
   display:flex;
-
+  margin: 0% !important;
   height: 419px;
   width: 960px;
   overflow-x: scroll ;
@@ -142,63 +195,72 @@
 }
 
 .slideLeft{
+  font-weight: bolder;
   position: absolute;
-  left: 400px;
+  top: 72%;
+  left: 0%;
   display:none;
   border-color: transparent;
   margin: 0px;
-  border-radius: 8px;
+  border-radius: 50%;
   border-width: 1px;
   border-style: solid;
   cursor: pointer;
-
   color: rgb(59, 65, 68);
-  text-align: center;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.5;
-  padding: 8px 16px;
+  font-size: 20px;
+  width: 32px;
+  height: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    outline: none;
 }
 
 .slideRight{
 position: absolute;
-left: 500px;
+top: 72%;
+left: 97%;
 border-color: transparent;
 margin: 0px;
-border-radius: 8px;
-border-width: 1px;
-border-style: solid;
+border-radius: 50%;
+
+
 cursor: pointer;
-display: inline-block;
+
 color: rgb(59, 65, 68);
-text-align: center;
-font-weight: bold;
-font-size: 16px;
-  line-height: 1.5;
-  padding: 8px 16px;
+
+
+font-size: 20px;
+width: 32px;
+height: 32px;
+font-weight: bolder;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  outline: none;
 }
 
 .slideAll {
-position: absolute;
-left: 500px;
+padding: 0%;
+
 display: none;
 z-index: 9;
+position: absolute;
+top: 72%;
+left: 97%;
 border-color: transparent;
 margin: 0px;
-border-radius: 8px;
-border-width: 1px;
-border-style: solid;
+border-radius: 50%;
 cursor: pointer;
 color: rgb(59, 65, 68);
-text-align: center;
-font-weight: bold;
-font-size: 16px;
-  line-height: 1.5;
-  padding: 8px 16px;
+font-weight: bolder;
+font-size: 15px;
+width: 32px;
+height: 32px;
+
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  outline: none;
 }
 
 .overreview{
-  border-radius: 25px;
+  position: relative;
+  border-radius: 10px;
   width:228px;
   height:345px;
   margin: 6px;
@@ -210,39 +272,53 @@ font-size: 16px;
 .namereview{
   font-size: 1.5rem auto;
   color: rgb(50,50,50);
-  margin: .50rem auto;
+  width: 50%;
+  padding-left: 17%;
   padding-top: 20px;
   text-align: center;
   color:white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .datereview{
-  font-size: .9rem auto;
+  font-size: 12px;
   color: rgb(50,50,50);
-  margin-bottom: .50rem;
+  padding-left: 3%;
   text-align: center;
   color:white;
   overflow: hidden;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .textreview{
-  font-size: 1.25rem auto;
+  font-size: 20px !important;
+  font-style: italic;
   color: rgb(50,50,50);
-  margin: .50rem;
+  margin-left: 12% !important;
+  padding: 0%;
   text-align: center;
   color:white;
-  width: 206px;
-  height: 90px;
+  width: 80%;
+  height: 50%;
   overflow: hidden;
+  padding-top: 5%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+
+
 .likesreview{
+  align-items: baseline;
   font-size: 1.15rem auto;
   color: rgb(50,50,50);
   padding: 0.5rem;
   text-align: left;
   color:white;
   line-height: 1;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: absolute;
+  top: 80%;
+  left: 10%;
 }
 
 .list {
@@ -277,7 +353,7 @@ font-size: 16px;
 .Modal {
   position: fixed; /* stays fixed on window */
   z-index: 9; /* on top of current content */
-  left: 0;
+  left: 0%;
   top: 0;
   width: 100%; /* fills the enire width of page */
   height: 100%;
@@ -288,6 +364,7 @@ font-size: 16px;
   position: absolute;
   left: 300px;
   top: 100px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 
@@ -295,6 +372,9 @@ font-size: 16px;
   background-color:transparent;
   height: 600px;
   width:700px;
+  position: absolute;
+  left: 25%;
+
   margin: 3rem;  /* this is roughtly 48px from top bottom */
   padding: 0;
   border: 1px solid #888;
@@ -314,10 +394,82 @@ font-size: 16px;
   width:30px;
   height: 30px;
   cursor: pointer;
-
+  position: absolute;
+  left: 9%;
+  top:20%;
 
 }
 .ModalContent2 {
 display: flex;
 flex-wrap: wrap;
+}
+
+.staticcontainer{
+  display: flexbox;
+  flex-direction: row;
+  width: 700px;
+}
+
+.row{
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left:27% !important;
+
+}
+
+.box{
+  width: 950px;
+  margin: 0% !important;
+}
+
+.navbar{
+  margin-left: 2% !important;
+}
+
+.icon{
+  background-color: white;
+  border-radius: 50%;
+  padding: 2%;
+  margin:2%;
+  position: absolute;
+  left:10%;
+}
+
+
+
+.flag{
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-left: 60%;
+  position: absolute;
+  top: 0%;
+}
+
+.smile{
+top: 23%;
+left: -180%;
+ position: absolute;
+}
+
+.flexrow{
+  display: flex;
+  align-items: baseline;
+  position: relative;
+  top: 10%;
+  left: 9%;
+}
+
+.flexcolumn{
+  display:flex;
+  flex-direction: column;
+
+}
+
+.voterow3{
+  position: absolute;
+  left: -25%;
 }

@@ -79,7 +79,7 @@ renderAllReviewsmodal() {
         <Votes features={this.state.features} />
         <button onClick={this.clickallfeatures} className={styles.Voterbutton}> See All </button>
         <p className={styles.paragraphtext}> Learn more about our methodology. </p>
-        <Navbar topics={this.state.topics} changeTopic={this.changeTopic}/>
+        <Navbar className={styles.navbar} topics={this.state.topics} changeTopic={this.changeTopic}/>
         <div className={styles.review}>
       <ReviewListContainer datas={this.state.reviews} renderModal={this.renderModal} renderAllReviews={this.renderAllReviewsmodal}/>
         <SingleReviewModal hideModal={this.hideModal} data={this.state.modaldata} modalstate={this.state.modalstate} />
