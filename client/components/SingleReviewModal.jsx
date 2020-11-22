@@ -19,7 +19,7 @@ const SingleReviewModal = (props) => {
 
           <div className={style.SingleReviewModalContent} >
           <span><button onClick={()=>(closeModal())} id="myModal">X</button> </span>
-            <div className={style.SingleReview}><Review data={props.data} /> </div>
+            <div className={style.SingleReview}><Review data={props.data}  /> </div>
           </div>
         </div>
       </div>

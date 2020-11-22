@@ -7,7 +7,8 @@ const Promise = require('bluebird')
 const Property = require("../db/models/property.js")
 
 
-app.use(express.static('public'))
+app.use('/', express.static('public'))
+app.use('/api/homes/:id/', express.static('public'))
 app.use(express.json());
 
 
