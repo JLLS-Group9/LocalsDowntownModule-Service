@@ -106,10 +106,10 @@ position: relative;
   transition: top 0.1s ease 0s, box-shadow 0.1s ease 0s, border-color 0.1s ease 0s, background-color 0.1s ease 0s, color 0.1s ease 0s;
   text-align: center;
   font-weight: bold;
-  border-color: transparent;
+
   margin: 0px;
   border-radius: 8px;
-  border-width: 2px;
+  border-width: 1px;
   border-style: solid;
   cursor: pointer;
   display: inline-block;
@@ -397,7 +397,6 @@ height: 32px;
   position: absolute;
   left: 9%;
   top:20%;
-
 }
 .ModalContent2 {
 display: flex;
@@ -447,12 +446,14 @@ flex-wrap: wrap;
   margin-left: 60%;
   position: absolute;
   top: 0%;
+  cursor: pointer;
 }
 
 .smile{
 top: 23%;
 left: -180%;
  position: absolute;
+ cursor: pointer;
 }
 
 .flexrow{
