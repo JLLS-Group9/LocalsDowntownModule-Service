@@ -20,6 +20,8 @@ function SingleTopic() {
  return topic;
 }
 
+const randomNumber = () => Math.floor(Math.random() * (100 - 70 + 1)) + 70;
+
 const colours = [
   '#00adbb', '#fa8c68', '#ceb6ff',
   '#740631', '#f2c430', '#052286', '#ff5e3f'
@@ -50,6 +52,22 @@ function AllNeighborhoods() {
     var neighbor = {}
     neighbor.id = i;
     neighbor.name = communities[i];
+    neighbor.car = randomNumber();
+    neighbor.dog = randomNumber();
+    neighbor.parking = randomNumber();
+    neighbor.quiet = randomNumber();
+    neighbor.alone = randomNumber();
+    neighbor.sidewalks = randomNumber();
+    neighbor.wildlife = randomNumber();
+    neighbor.holiday = randomNumber();
+    neighbor.yards = randomNumber();
+    neighbor.plan = randomNumber();
+    neighbor.streets = randomNumber();
+    neighbor.restaurants = randomNumber();
+    neighbor.grocery = randomNumber();
+    neighbor.kids = randomNumber();
+    neighbor.friendly = randomNumber();
+    neighbor.community = randomNumber();
     neighbor.reviews = []
     var j = 0
     while (j < 24) {
