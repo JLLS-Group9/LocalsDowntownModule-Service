@@ -1,27 +1,14 @@
 import React from 'react'
-import style from './style.css'
+import style from './votes.css'
 import Votedata from './Votedata.jsx'
 const Votes = (props) => (
   <div >
-    <table  className={style.staticcontainer}>
-    <thead >
-      <tr>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
+    <div  className={style.staticcontainer}>
 
-      </tr>
-    </thead>
-    <tbody>
 
-      {props.features.map( (feature, key) =>  (<Votedata feature={feature} key={key}/>))}
+      {props.features.map( (feature, key) =>  (<Votedata feature={feature} key={key} />))}
 
-    </tbody>
-  </table>
-
+    </div>
   </div>
 
 )

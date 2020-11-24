@@ -13,14 +13,15 @@ class App extends React.Component {
  constructor(props) {
    super(props)
    this.state = {
-     record: null,
+     record: [],
      property:null,
      neighborhood:null,
      topics:[],
      reviews:[],
-     features: lessfeatures,
+     features: [],
      modalstate:false,
      modaldata:{},
+     toggle:true,
      AllReviewsmodalstate: false
 
    }
@@ -31,6 +32,7 @@ class App extends React.Component {
    this.hideModal = this.hideModal.bind(this)
    this.renderAllReviewsmodal = this.renderAllReviewsmodal.bind(this)
    this.retrievebooking = this.retrievebooking.bind(this)
+   this.renderfeatures = this.renderfeatures.bind(this)
  }
 
 componentDidMount() {
@@ -42,7 +44,8 @@ componentDidMount() {
 retrievebooking(){
   axios.get(`${window.location.pathname}reviews`)
 
-  .then((res)=>(this.setState({record: res.data, property:res.data[0].name, neighborhood:res.data[0].neighborhood.name, reviews:res.data[0].neighborhood.reviews, topics:res.data[0].neighborhood.reviews}), console.log(res.data[0].neighborhood.reviews)))
+  .then((res)=>(this.setState({record: res.data[0], property:res.data[0].name, neighborhood:res.data[0].neighborhood.name, reviews:res.data[0].neighborhood.reviews, topics:res.data[0].neighborhood.reviews}), console.log(res.data[0]), this.renderfeatures(res.data[0])))
+
   .catch((err) => (console.log(err)))
 }
 
@@ -52,11 +55,11 @@ changeTopic(event) {
 }
 
 clickallfeatures() {
-  if (this.state.features === lessfeatures) {
-    this.setState({features: allfeatures })
+  if (this.state.toggle ) {
+    this.setState({features: allfeatures(this.state.record), toggle:false })
     event.target.innerHTML = "See Less"
   } else {
-    this.setState({features: lessfeatures })
+    this.setState({features: lessfeatures(this.state.record), toggle:true })
     event.target.innerHTML = "See All"
   }
 
@@ -75,7 +78,12 @@ renderAllReviewsmodal() {
   console.log('ive been clicked' + this.state.AllReviewsmodalstate)
 }
 
+renderfeatures(props) {
+  this.setState({ features: lessfeatures(props)})
+}
+
  render() {
+
    return (
      <div className={styles.background}>
        <h2 className={styles.titletext} > What Locals Say about Downtown</h2>

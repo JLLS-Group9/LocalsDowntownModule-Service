@@ -63,24 +63,28 @@
 .votepercentage{
   color: rgb(0, 120, 130);
   font-weight: bold;
-  display: flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
   flex-direction: row;
   height: 48px;
   width: 22px;
   font-size: 16px;
   margin-right: 10px;
-  padding-right: 50px;
+
   padding-left: 50px;
   letter-spacing: -0.1px;
   text-align: left;
 position: relative;
+background-color:rgb(224, 247, 248);
 
 }
 
 .votetext {
+  display: flex;
   align-items: center;
-  display: inline-flex;
-  width:156px ;
+  -webkit-box-align: center;
+  min-width:156px ;
   min-height:48;
   line-height: 1.43;
   color: rgb(59, 65, 68);
@@ -90,6 +94,7 @@ position: relative;
   text-align: left;
   margin-right: 10px;
   padding-right: 10px;
+  padding-left: 5px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   position: relative;
 }
@@ -321,7 +326,9 @@ height: 32px;
   left: 10%;
 }
 
-.list {
+
+.voterow{
+  display:flex;
   margin: 0px;
   padding: 20px;
   font-family: TruliaSans, system, -apple-system, Roboto, "Segoe UI Bold", Arial, sans-serif;
@@ -330,9 +337,8 @@ height: 32px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: -0.1px;
-  border: solid;
   border-spacing: 50px 0;
-
+  align-items: baseline;
 }
 
 .ModalContent { /* this is  wrapper for the modal content*/

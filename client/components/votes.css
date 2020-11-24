@@ -1,0 +1,52 @@
+.staticcontainer{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start safe;
+  align-items: left;
+  margin-left: 2%;
+  justify-content: space-evenly;
+  width: auto;
+}
+
+.voterow{
+  width: 95%;;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1%;
+}
+
+.votepercentage{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly ;
+  align-items: baseline;
+  width: 10%;
+  -webkit-box-align: center;
+  border-radius: 8px;
+  padding: 4px 8px;
+  background-color: rgb(224, 247, 248);
+  color: rgb(59, 65, 68);
+  font-size: 16px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+.votetext {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:center ;
+  align-items: center;
+  width: 40%;
+  -webkit-box-align: center;
+  overflow-wrap: normal;
+
+  color: rgb(59, 65, 68);
+  font-size: 16px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
