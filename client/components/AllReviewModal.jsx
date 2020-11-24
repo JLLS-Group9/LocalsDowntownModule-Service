@@ -3,7 +3,7 @@ import App from './App.jsx'
 import style from './style.css'
 import ReviewListContainer from './ReviewListContainer.jsx'
 import Review from './Review.jsx'
-import Navbar from './Navbar.jsx'
+import Navbar from './NavBar.jsx'
 
 const AllReviewModal = (props) => {
 

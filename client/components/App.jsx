@@ -2,7 +2,7 @@ import React from 'react'
 import axios from 'axios'
 import ReviewListContainer from './ReviewListContainer.jsx'
 import styles from './style.css';
-import Navbar from './Navbar.jsx'
+import Navbar from './NavBar.jsx'
 import Votes from "./Votes.jsx"
 import allfeatures from './allfeatures.jsx'
 import lessfeatures from './lessfeatures.jsx'
