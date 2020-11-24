@@ -45,8 +45,13 @@
   width: 40%;
   -webkit-box-align: center;
   overflow-wrap: normal;
-
+  word-wrap: break-word;
   color: rgb(59, 65, 68);
   font-size: 16px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.innervote{
+  display: flex;
+  flex-wrap: wrap;
 }

@@ -29,6 +29,7 @@ eval("module.exports = __webpack_require__(/*! ./lib/axios */ \"./node_modules/a
   \************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 12:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -42,6 +43,7 @@ eval("\n\nvar utils = __webpack_require__(/*! ./../utils */ \"./node_modules/axi
   \*****************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 50:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -55,6 +57,7 @@ eval("\n\nvar utils = __webpack_require__(/*! ./utils */ \"./node_modules/axios/
   \*************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 19:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -68,6 +71,7 @@ eval("\n\n/**\n * A `Cancel` is an object that is thrown when an operation is ca
   \******************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 57:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -81,6 +85,7 @@ eval("\n\nvar Cancel = __webpack_require__(/*! ./Cancel */ \"./node_modules/axio
   \***************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 3:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -94,6 +99,7 @@ eval("\n\nmodule.exports = function isCancel(value) {\n  return !!(value && valu
   \**********************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 95:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -107,6 +113,7 @@ eval("\n\nvar utils = __webpack_require__(/*! ./../utils */ \"./node_modules/axi
   \***********************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 52:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -120,6 +127,7 @@ eval("\n\nvar utils = __webpack_require__(/*! ./../utils */ \"./node_modules/axi
   \******************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 15:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -133,6 +141,7 @@ eval("\n\nvar isAbsoluteURL = __webpack_require__(/*! ../helpers/isAbsoluteURL *
   \****************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 15:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -146,6 +155,7 @@ eval("\n\nvar enhanceError = __webpack_require__(/*! ./enhanceError */ \"./node_
   \********************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 23:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -159,6 +169,7 @@ eval("\n\nvar utils = __webpack_require__(/*! ./../utils */ \"./node_modules/axi
   \*****************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 13:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -172,6 +183,7 @@ eval("\n\n/**\n * Update an Error with the specified config, error code, and res
   \****************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 13:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -185,6 +197,7 @@ eval("\n\nvar utils = __webpack_require__(/*! ../utils */ \"./node_modules/axios
   \***********************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 12:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -198,6 +211,7 @@ eval("\n\nvar createError = __webpack_require__(/*! ./createError */ \"./node_mo
   \******************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 13:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -211,6 +225,7 @@ eval("\n\nvar utils = __webpack_require__(/*! ./../utils */ \"./node_modules/axi
   \********************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 98:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -224,6 +239,7 @@ eval("\n\nvar utils = __webpack_require__(/*! ./utils */ \"./node_modules/axios/
   \************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 3:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -237,6 +253,7 @@ eval("\n\nmodule.exports = function bind(fn, thisArg) {\n  return function wrap(
   \****************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 22:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -250,6 +267,7 @@ eval("\n\nvar utils = __webpack_require__(/*! ./../utils */ \"./node_modules/axi
   \*******************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 10:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -263,6 +281,7 @@ eval("\n\n/**\n * Creates a new URL by combining the specified URLs\n *\n * @par
   \***************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 5:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -276,6 +295,7 @@ eval("\n\nvar utils = __webpack_require__(/*! ./../utils */ \"./node_modules/axi
   \*********************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 9:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -289,6 +309,7 @@ eval("\n\n/**\n * Determines whether the specified URL is absolute\n *\n * @para
   \***********************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 5:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -302,6 +323,7 @@ eval("\n\nvar utils = __webpack_require__(/*! ./../utils */ \"./node_modules/axi
   \***************************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 5:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -315,6 +337,7 @@ eval("\n\nvar utils = __webpack_require__(/*! ../utils */ \"./node_modules/axios
   \********************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 27:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -328,6 +351,7 @@ eval("\n\nvar utils = __webpack_require__(/*! ./../utils */ \"./node_modules/axi
   \**************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 23:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -341,6 +365,7 @@ eval("\n\n/**\n * Syntactic sugar for invoking a function and expanding an array
   \*****************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 328:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -374,7 +399,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ \"./node_modules/axios/index.js\");\n/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _ReviewListContainer_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ReviewListContainer.jsx */ \"./client/components/ReviewListContainer.jsx\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./style.css */ \"./client/components/style.css\");\n/* harmony import */ var _Navbar_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Navbar.jsx */ \"./client/components/Navbar.jsx\");\n/* harmony import */ var _Votes_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Votes.jsx */ \"./client/components/Votes.jsx\");\n/* harmony import */ var _allfeatures_jsx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./allfeatures.jsx */ \"./client/components/allfeatures.jsx\");\n/* harmony import */ var _lessfeatures_jsx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./lessfeatures.jsx */ \"./client/components/lessfeatures.jsx\");\n/* harmony import */ var _SingleReviewModal_jsx__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./SingleReviewModal.jsx */ \"./client/components/SingleReviewModal.jsx\");\n/* harmony import */ var _AllReviewModal_jsx__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./AllReviewModal.jsx */ \"./client/components/AllReviewModal.jsx\");\nfunction _typeof(obj) { \"@babel/helpers - typeof\"; if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nfunction _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _isNativeReflectConstruct() { if (typeof Reflect === \"undefined\" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === \"function\") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\n\n\n\n\n\n\n\n\n\n\n\nvar App = /*#__PURE__*/function (_React$Component) {\n  _inherits(App, _React$Component);\n\n  var _super = _createSuper(App);\n\n  function App(props) {\n    var _this;\n\n    _classCallCheck(this, App);\n\n    _this = _super.call(this, props);\n    _this.state = {\n      record: [],\n      property: null,\n      neighborhood: null,\n      topics: [],\n      reviews: [],\n      features: [],\n      modalstate: false,\n      modaldata: {},\n      toggle: true,\n      AllReviewsmodalstate: false\n    };\n    _this.changeTopic = _this.changeTopic.bind(_assertThisInitialized(_this));\n    _this.clickallfeatures = _this.clickallfeatures.bind(_assertThisInitialized(_this));\n    _this.renderModal = _this.renderModal.bind(_assertThisInitialized(_this));\n    _this.hideModal = _this.hideModal.bind(_assertThisInitialized(_this));\n    _this.renderAllReviewsmodal = _this.renderAllReviewsmodal.bind(_assertThisInitialized(_this));\n    _this.retrievebooking = _this.retrievebooking.bind(_assertThisInitialized(_this));\n    _this.renderfeatures = _this.renderfeatures.bind(_assertThisInitialized(_this));\n    return _this;\n  }\n\n  _createClass(App, [{\n    key: \"componentDidMount\",\n    value: function componentDidMount() {\n      this.retrievebooking();\n    }\n  }, {\n    key: \"retrievebooking\",\n    value: function retrievebooking() {\n      var _this2 = this;\n\n      axios__WEBPACK_IMPORTED_MODULE_1___default().get(\"\".concat(window.location.pathname, \"reviews\")).then(function (res) {\n        return _this2.setState({\n          record: res.data[0],\n          property: res.data[0].name,\n          neighborhood: res.data[0].neighborhood.name,\n          reviews: res.data[0].neighborhood.reviews,\n          topics: res.data[0].neighborhood.reviews\n        }), console.log(res.data[0]), _this2.renderfeatures(res.data[0]);\n      })[\"catch\"](function (err) {\n        return console.log(err);\n      });\n    }\n  }, {\n    key: \"changeTopic\",\n    value: function changeTopic(event) {\n      console.log(event);\n      this.setState({\n        reviews: event\n      });\n    }\n  }, {\n    key: \"clickallfeatures\",\n    value: function clickallfeatures() {\n      if (this.state.toggle) {\n        this.setState({\n          features: (0,_allfeatures_jsx__WEBPACK_IMPORTED_MODULE_6__.default)(this.state.record),\n          toggle: false\n        });\n        event.target.innerHTML = \"See Less\";\n      } else {\n        this.setState({\n          features: (0,_lessfeatures_jsx__WEBPACK_IMPORTED_MODULE_7__.default)(this.state.record),\n          toggle: true\n        });\n        event.target.innerHTML = \"See All\";\n      }\n    }\n  }, {\n    key: \"renderModal\",\n    value: function renderModal(data) {\n      this.setState({\n        modalstate: true,\n        modaldata: data\n      });\n    }\n  }, {\n    key: \"hideModal\",\n    value: function hideModal() {\n      this.setState({\n        modalstate: false,\n        modaldata: {},\n        AllReviewsmodalstate: false\n      });\n    }\n  }, {\n    key: \"renderAllReviewsmodal\",\n    value: function renderAllReviewsmodal() {\n      this.setState({\n        AllReviewsmodalstate: true\n      });\n      console.log('ive been clicked' + this.state.AllReviewsmodalstate);\n    }\n  }, {\n    key: \"renderfeatures\",\n    value: function renderfeatures(props) {\n      this.setState({\n        features: (0,_lessfeatures_jsx__WEBPACK_IMPORTED_MODULE_7__.default)(props)\n      });\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n        className: _style_css__WEBPACK_IMPORTED_MODULE_3__.default.background\n      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h2\", {\n        className: _style_css__WEBPACK_IMPORTED_MODULE_3__.default.titletext\n      }, \" What Locals Say about Downtown\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h5\", {\n        className: _style_css__WEBPACK_IMPORTED_MODULE_3__.default.ptext\n      }, \" At least 133 Trulia users voted on each feature \"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Votes_jsx__WEBPACK_IMPORTED_MODULE_5__.default, {\n        features: this.state.features\n      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"button\", {\n        onClick: this.clickallfeatures,\n        className: _style_css__WEBPACK_IMPORTED_MODULE_3__.default.Voterbutton\n      }, \" See All \"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"p\", {\n        className: _style_css__WEBPACK_IMPORTED_MODULE_3__.default.paragraphtext\n      }, \" Learn more about our methodology. \"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Navbar_jsx__WEBPACK_IMPORTED_MODULE_4__.default, {\n        className: _style_css__WEBPACK_IMPORTED_MODULE_3__.default.navbar,\n        topics: this.state.topics,\n        changeTopic: this.changeTopic\n      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n        className: _style_css__WEBPACK_IMPORTED_MODULE_3__.default.review\n      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_ReviewListContainer_jsx__WEBPACK_IMPORTED_MODULE_2__.default, {\n        datas: this.state.reviews,\n        renderModal: this.renderModal,\n        renderAllReviews: this.renderAllReviewsmodal\n      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_SingleReviewModal_jsx__WEBPACK_IMPORTED_MODULE_8__.default, {\n        hideModal: this.hideModal,\n        data: this.state.modaldata,\n        modalstate: this.state.modalstate\n      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_AllReviewModal_jsx__WEBPACK_IMPORTED_MODULE_9__.default, {\n        AllReviewsmodalstate: this.state.AllReviewsmodalstate,\n        datas: this.state.reviews,\n        hideModal: this.hideModal,\n        topics: this.state.topics,\n        changeTopic: this.changeTopic\n      })));\n    }\n  }]);\n\n  return App;\n}(react__WEBPACK_IMPORTED_MODULE_0__.Component);\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);\n\n//# sourceURL=webpack://localsdowntownmodule-service/./client/components/App.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ \"./node_modules/axios/index.js\");\n/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _ReviewListContainer_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ReviewListContainer.jsx */ \"./client/components/ReviewListContainer.jsx\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./style.css */ \"./client/components/style.css\");\n/* harmony import */ var _Navbar_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Navbar.jsx */ \"./client/components/Navbar.jsx\");\n/* harmony import */ var _Votes_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Votes.jsx */ \"./client/components/Votes.jsx\");\n/* harmony import */ var _allfeatures_jsx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./allfeatures.jsx */ \"./client/components/allfeatures.jsx\");\n/* harmony import */ var _lessfeatures_jsx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./lessfeatures.jsx */ \"./client/components/lessfeatures.jsx\");\n/* harmony import */ var _SingleReviewModal_jsx__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./SingleReviewModal.jsx */ \"./client/components/SingleReviewModal.jsx\");\n/* harmony import */ var _AllReviewModal_jsx__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./AllReviewModal.jsx */ \"./client/components/AllReviewModal.jsx\");\nfunction _typeof(obj) { \"@babel/helpers - typeof\"; if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nfunction _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _isNativeReflectConstruct() { if (typeof Reflect === \"undefined\" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === \"function\") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\n\n\n\n\n\n\n\n\n\n\n\nvar App = /*#__PURE__*/function (_React$Component) {\n  _inherits(App, _React$Component);\n\n  var _super = _createSuper(App);\n\n  function App(props) {\n    var _this;\n\n    _classCallCheck(this, App);\n\n    _this = _super.call(this, props);\n    _this.state = {\n      record: [],\n      property: null,\n      neighborhood: null,\n      topics: [],\n      reviews: [],\n      features: [],\n      modalstate: false,\n      modaldata: {},\n      toggle: true,\n      AllReviewsmodalstate: false\n    };\n    _this.changeTopic = _this.changeTopic.bind(_assertThisInitialized(_this));\n    _this.clickallfeatures = _this.clickallfeatures.bind(_assertThisInitialized(_this));\n    _this.renderModal = _this.renderModal.bind(_assertThisInitialized(_this));\n    _this.hideModal = _this.hideModal.bind(_assertThisInitialized(_this));\n    _this.renderAllReviewsmodal = _this.renderAllReviewsmodal.bind(_assertThisInitialized(_this));\n    _this.retrievebooking = _this.retrievebooking.bind(_assertThisInitialized(_this));\n    _this.renderfeatures = _this.renderfeatures.bind(_assertThisInitialized(_this));\n    return _this;\n  }\n\n  _createClass(App, [{\n    key: \"componentDidMount\",\n    value: function componentDidMount() {\n      this.retrievebooking();\n    }\n  }, {\n    key: \"retrievebooking\",\n    value: function retrievebooking() {\n      var _this2 = this;\n\n      axios__WEBPACK_IMPORTED_MODULE_1___default().get(\"\".concat(window.location.pathname, \"reviews\")).then(function (res) {\n        return _this2.setState({\n          record: res.data[0],\n          property: res.data[0].name,\n          neighborhood: res.data[0].neighborhood.name,\n          reviews: res.data[0].neighborhood.reviews,\n          topics: res.data[0].neighborhood.reviews\n        }), console.log(res.data[0]), _this2.renderfeatures(res.data[0]);\n      })[\"catch\"](function (err) {\n        return console.log(err);\n      });\n    }\n  }, {\n    key: \"changeTopic\",\n    value: function changeTopic(event) {\n      console.log(event);\n      this.setState({\n        reviews: event\n      });\n    }\n  }, {\n    key: \"clickallfeatures\",\n    value: function clickallfeatures() {\n      if (this.state.toggle) {\n        this.setState({\n          features: (0,_allfeatures_jsx__WEBPACK_IMPORTED_MODULE_6__.default)(this.state.record),\n          toggle: false\n        });\n        event.target.innerHTML = \"See Less\";\n      } else {\n        this.setState({\n          features: (0,_lessfeatures_jsx__WEBPACK_IMPORTED_MODULE_7__.default)(this.state.record),\n          toggle: true\n        });\n        event.target.innerHTML = \"See All\";\n      }\n    }\n  }, {\n    key: \"renderModal\",\n    value: function renderModal(data) {\n      this.setState({\n        modalstate: true,\n        modaldata: data\n      });\n    }\n  }, {\n    key: \"hideModal\",\n    value: function hideModal() {\n      this.setState({\n        modalstate: false,\n        modaldata: {},\n        AllReviewsmodalstate: false\n      });\n    }\n  }, {\n    key: \"renderAllReviewsmodal\",\n    value: function renderAllReviewsmodal() {\n      this.setState({\n        AllReviewsmodalstate: true\n      });\n      console.log('ive been clicked' + this.state.AllReviewsmodalstate);\n    }\n  }, {\n    key: \"renderfeatures\",\n    value: function renderfeatures(props) {\n      this.setState({\n        features: (0,_lessfeatures_jsx__WEBPACK_IMPORTED_MODULE_7__.default)(props)\n      });\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n        className: _style_css__WEBPACK_IMPORTED_MODULE_3__.default.background\n      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h2\", {\n        className: _style_css__WEBPACK_IMPORTED_MODULE_3__.default.titletext\n      }, \" What Locals Say about \", this.state.neighborhood), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h5\", {\n        className: _style_css__WEBPACK_IMPORTED_MODULE_3__.default.ptext\n      }, \" At least 133 Trulia users voted on each feature \"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Votes_jsx__WEBPACK_IMPORTED_MODULE_5__.default, {\n        features: this.state.features\n      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"button\", {\n        onClick: this.clickallfeatures,\n        className: _style_css__WEBPACK_IMPORTED_MODULE_3__.default.Voterbutton\n      }, \" See All \"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"p\", {\n        className: _style_css__WEBPACK_IMPORTED_MODULE_3__.default.paragraphtext\n      }, \" Learn more about our methodology. \"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Navbar_jsx__WEBPACK_IMPORTED_MODULE_4__.default, {\n        className: _style_css__WEBPACK_IMPORTED_MODULE_3__.default.navbar,\n        topics: this.state.topics,\n        changeTopic: this.changeTopic\n      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n        className: _style_css__WEBPACK_IMPORTED_MODULE_3__.default.review\n      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_ReviewListContainer_jsx__WEBPACK_IMPORTED_MODULE_2__.default, {\n        datas: this.state.reviews,\n        renderModal: this.renderModal,\n        renderAllReviews: this.renderAllReviewsmodal\n      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_SingleReviewModal_jsx__WEBPACK_IMPORTED_MODULE_8__.default, {\n        hideModal: this.hideModal,\n        data: this.state.modaldata,\n        modalstate: this.state.modalstate\n      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_AllReviewModal_jsx__WEBPACK_IMPORTED_MODULE_9__.default, {\n        AllReviewsmodalstate: this.state.AllReviewsmodalstate,\n        datas: this.state.reviews,\n        hideModal: this.hideModal,\n        topics: this.state.topics,\n        changeTopic: this.changeTopic\n      })));\n    }\n  }]);\n\n  return App;\n}(react__WEBPACK_IMPORTED_MODULE_0__.Component);\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);\n\n//# sourceURL=webpack://localsdowntownmodule-service/./client/components/App.jsx?");
 
 /***/ }),
 
@@ -449,7 +474,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _votes_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./votes.css */ \"./client/components/votes.css\");\n;\n\n\nvar Votedata = function Votedata(_ref) {\n  var feature = _ref.feature;\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: _votes_css__WEBPACK_IMPORTED_MODULE_1__.default.voterow\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: _votes_css__WEBPACK_IMPORTED_MODULE_1__.default.votepercentage\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: _votes_css__WEBPACK_IMPORTED_MODULE_1__.default.innervote\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"svg\", {\n    className: _votes_css__WEBPACK_IMPORTED_MODULE_1__.default.svg,\n    viewBox: \"0 0 32 32\",\n    xmlns: \"http://www.w3.org/2000/svg\",\n    height: feature.Topic1size,\n    width: feature.Topic1size\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"path\", {\n    d: feature.pathlike1,\n    fill: feature.pathlike1fill,\n    \"fill-rule\": \"evenodd\"\n  })), \" \", feature.like1, \"%\")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: _votes_css__WEBPACK_IMPORTED_MODULE_1__.default.votetext\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"svg\", {\n    className: _votes_css__WEBPACK_IMPORTED_MODULE_1__.default.voterow3,\n    viewBox: \"0 0 32 32\",\n    xmlns: \"http://www.w3.org/2000/svg\",\n    height: feature.Topic1size,\n    width: feature.Topic1size\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"path\", {\n    d: feature.Topic1path,\n    fill: feature.Topic1fill,\n    \"fill-rule\": \"evenodd\"\n  })), feature.Topic1), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: _votes_css__WEBPACK_IMPORTED_MODULE_1__.default.votepercentage\n  }, \"   \", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"svg\", {\n    className: _votes_css__WEBPACK_IMPORTED_MODULE_1__.default.svg,\n    viewBox: \"0 0 32 32\",\n    xmlns: \"http://www.w3.org/2000/svg\",\n    height: feature.Topic1size,\n    width: feature.Topic1size\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"path\", {\n    d: feature.pathlike1,\n    fill: feature.pathlike1fill,\n    \"fill-rule\": \"evenodd\"\n  })), feature.like2, \"% \"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: _votes_css__WEBPACK_IMPORTED_MODULE_1__.default.votetext\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"svg\", {\n    className: _votes_css__WEBPACK_IMPORTED_MODULE_1__.default.voterow3,\n    height: feature.Topic2size,\n    width: feature.Topic2size,\n    viewBox: \"0 0 32 32\",\n    xmlns: \"http://www.w3.org/2000/svg\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"path\", {\n    d: feature.Topic2path,\n    fill: feature.Topic2fill,\n    \"fill-rule\": \"evenodd\"\n  })), feature.Topic2), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: _votes_css__WEBPACK_IMPORTED_MODULE_1__.default.votepercentage\n  }, \"   \", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"svg\", {\n    className: _votes_css__WEBPACK_IMPORTED_MODULE_1__.default.svg,\n    viewBox: \"0 0 32 32\",\n    xmlns: \"http://www.w3.org/2000/svg\",\n    height: feature.Topic1size,\n    width: feature.Topic1size\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"path\", {\n    d: feature.pathlike1,\n    fill: feature.pathlike1fill,\n    \"fill-rule\": \"evenodd\"\n  })), feature.like3, \"%\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: _votes_css__WEBPACK_IMPORTED_MODULE_1__.default.votetext\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"svg\", {\n    className: _votes_css__WEBPACK_IMPORTED_MODULE_1__.default.voterow3,\n    height: feature.Topic3size,\n    width: feature.Topic3size,\n    viewBox: \"0 0 32 32\",\n    xmlns: \"http://www.w3.org/2000/svg\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"path\", {\n    d: feature.Topic3path,\n    fill: feature.Topic3fill,\n    \"fill-rule\": \"evenodd\"\n  })), feature.Topic3));\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Votedata);\n\n//# sourceURL=webpack://localsdowntownmodule-service/./client/components/Votedata.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _votes_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./votes.css */ \"./client/components/votes.css\");\n;\n\n\nvar Votedata = function Votedata(_ref) {\n  var feature = _ref.feature;\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: _votes_css__WEBPACK_IMPORTED_MODULE_1__.default.voterow\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: _votes_css__WEBPACK_IMPORTED_MODULE_1__.default.votepercentage\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: _votes_css__WEBPACK_IMPORTED_MODULE_1__.default.innervote\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"svg\", {\n    className: _votes_css__WEBPACK_IMPORTED_MODULE_1__.default.svg,\n    viewBox: \"0 0 32 32\",\n    xmlns: \"http://www.w3.org/2000/svg\",\n    height: feature.Topic1size,\n    width: feature.Topic1size\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"path\", {\n    d: feature.pathlike1,\n    fill: feature.pathlike1fill,\n    \"fill-rule\": \"evenodd\"\n  })), \" \", feature.like1, \"%\")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: _votes_css__WEBPACK_IMPORTED_MODULE_1__.default.votetext\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: _votes_css__WEBPACK_IMPORTED_MODULE_1__.default.innervote\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"svg\", {\n    className: _votes_css__WEBPACK_IMPORTED_MODULE_1__.default.voterow3,\n    viewBox: \"0 0 32 32\",\n    xmlns: \"http://www.w3.org/2000/svg\",\n    height: feature.Topic1size,\n    width: feature.Topic1size\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"path\", {\n    d: feature.Topic1path,\n    fill: feature.Topic1fill,\n    \"fill-rule\": \"evenodd\"\n  })), feature.Topic1)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: _votes_css__WEBPACK_IMPORTED_MODULE_1__.default.votepercentage\n  }, \"   \", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"svg\", {\n    className: _votes_css__WEBPACK_IMPORTED_MODULE_1__.default.svg,\n    viewBox: \"0 0 32 32\",\n    xmlns: \"http://www.w3.org/2000/svg\",\n    height: feature.Topic1size,\n    width: feature.Topic1size\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"path\", {\n    d: feature.pathlike1,\n    fill: feature.pathlike1fill,\n    \"fill-rule\": \"evenodd\"\n  })), feature.like2, \"% \"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: _votes_css__WEBPACK_IMPORTED_MODULE_1__.default.votetext\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"svg\", {\n    className: _votes_css__WEBPACK_IMPORTED_MODULE_1__.default.voterow3,\n    height: feature.Topic2size,\n    width: feature.Topic2size,\n    viewBox: \"0 0 32 32\",\n    xmlns: \"http://www.w3.org/2000/svg\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"path\", {\n    d: feature.Topic2path,\n    fill: feature.Topic2fill,\n    \"fill-rule\": \"evenodd\"\n  })), feature.Topic2), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: _votes_css__WEBPACK_IMPORTED_MODULE_1__.default.votepercentage\n  }, \"   \", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"svg\", {\n    className: _votes_css__WEBPACK_IMPORTED_MODULE_1__.default.svg,\n    viewBox: \"0 0 32 32\",\n    xmlns: \"http://www.w3.org/2000/svg\",\n    height: feature.Topic1size,\n    width: feature.Topic1size\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"path\", {\n    d: feature.pathlike1,\n    fill: feature.pathlike1fill,\n    \"fill-rule\": \"evenodd\"\n  })), feature.like3, \"%\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: _votes_css__WEBPACK_IMPORTED_MODULE_1__.default.votetext\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"svg\", {\n    className: _votes_css__WEBPACK_IMPORTED_MODULE_1__.default.voterow3,\n    height: feature.Topic3size,\n    width: feature.Topic3size,\n    viewBox: \"0 0 32 32\",\n    xmlns: \"http://www.w3.org/2000/svg\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"path\", {\n    d: feature.Topic3path,\n    fill: feature.Topic3fill,\n    \"fill-rule\": \"evenodd\"\n  })), feature.Topic3));\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Votedata);\n\n//# sourceURL=webpack://localsdowntownmodule-service/./client/components/Votedata.jsx?");
 
 /***/ }),
 
@@ -538,7 +563,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n;\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"._1LDCmzPhFRicG2Ji6AaNZi{\\n  display: flex;\\n  flex-direction: column;\\n  flex-wrap: wrap;\\n  justify-content: flex-start safe;\\n  align-items: left;\\n  margin-left: 2%;\\n  justify-content: space-evenly;\\n  width: auto;\\n}\\n\\n._3MUdqLRQHJCn9I4u33e03R{\\n  width: 95%;;\\n  display: flex;\\n  flex-direction: row;\\n  justify-content: space-evenly;\\n  align-items: center;\\n  padding: 1%;\\n}\\n\\n._3tP42Cem5bIWuN6hIzznaW{\\n  display: flex;\\n  flex-direction: row;\\n  flex-wrap: wrap;\\n  justify-content: space-evenly ;\\n  align-items: baseline;\\n  width: 10%;\\n  -webkit-box-align: center;\\n  border-radius: 8px;\\n  padding: 4px 8px;\\n  background-color: rgb(224, 247, 248);\\n  color: rgb(59, 65, 68);\\n  font-size: 16px;\\n  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;\\n}\\n\\n\\n\\n._16CQBhMpY-EuJj3zL9mkVy {\\n  display: flex;\\n  flex-direction: row;\\n  flex-wrap: wrap;\\n  justify-content:center ;\\n  align-items: center;\\n  width: 40%;\\n  -webkit-box-align: center;\\n  overflow-wrap: normal;\\n\\n  color: rgb(59, 65, 68);\\n  font-size: 16px;\\n  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;\\n}\", \"\"]);\n// Exports\n___CSS_LOADER_EXPORT___.locals = {\n\t\"staticcontainer\": \"_1LDCmzPhFRicG2Ji6AaNZi\",\n\t\"voterow\": \"_3MUdqLRQHJCn9I4u33e03R\",\n\t\"votepercentage\": \"_3tP42Cem5bIWuN6hIzznaW\",\n\t\"votetext\": \"_16CQBhMpY-EuJj3zL9mkVy\"\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://localsdowntownmodule-service/./client/components/votes.css?./node_modules/css-loader/dist/cjs.js??ruleSet%5B1%5D.rules%5B1%5D.use%5B1%5D");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n;\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"._1LDCmzPhFRicG2Ji6AaNZi{\\n  display: flex;\\n  flex-direction: column;\\n  flex-wrap: wrap;\\n  justify-content: flex-start safe;\\n  align-items: left;\\n  margin-left: 2%;\\n  justify-content: space-evenly;\\n  width: auto;\\n}\\n\\n._3MUdqLRQHJCn9I4u33e03R{\\n  width: 95%;;\\n  display: flex;\\n  flex-direction: row;\\n  justify-content: space-evenly;\\n  align-items: center;\\n  padding: 1%;\\n}\\n\\n._3tP42Cem5bIWuN6hIzznaW{\\n  display: flex;\\n  flex-direction: row;\\n  flex-wrap: wrap;\\n  justify-content: space-evenly ;\\n  align-items: baseline;\\n  width: 10%;\\n  -webkit-box-align: center;\\n  border-radius: 8px;\\n  padding: 4px 8px;\\n  background-color: rgb(224, 247, 248);\\n  color: rgb(59, 65, 68);\\n  font-size: 16px;\\n  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;\\n}\\n\\n\\n\\n._16CQBhMpY-EuJj3zL9mkVy {\\n  display: flex;\\n  flex-direction: row;\\n  flex-wrap: wrap;\\n  justify-content:center ;\\n  align-items: center;\\n  width: 40%;\\n  -webkit-box-align: center;\\n  overflow-wrap: normal;\\n  word-wrap: break-word;\\n  color: rgb(59, 65, 68);\\n  font-size: 16px;\\n  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;\\n}\\n\\n._1ANKmZZa_OixE2sbJz4uIO{\\n  display: flex;\\n  flex-wrap: wrap;\\n}\", \"\"]);\n// Exports\n___CSS_LOADER_EXPORT___.locals = {\n\t\"staticcontainer\": \"_1LDCmzPhFRicG2Ji6AaNZi\",\n\t\"voterow\": \"_3MUdqLRQHJCn9I4u33e03R\",\n\t\"votepercentage\": \"_3tP42Cem5bIWuN6hIzznaW\",\n\t\"votetext\": \"_16CQBhMpY-EuJj3zL9mkVy\",\n\t\"innervote\": \"_1ANKmZZa_OixE2sbJz4uIO\"\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://localsdowntownmodule-service/./client/components/votes.css?./node_modules/css-loader/dist/cjs.js??ruleSet%5B1%5D.rules%5B1%5D.use%5B1%5D");
 
 /***/ }),
 
@@ -548,6 +573,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*****************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 9:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -561,6 +587,7 @@ eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n
   \*********************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 65:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -753,6 +780,16 @@ eval("/** @license React v0.20.1\n * scheduler-tracing.development.js\n *\n * Co
 /*! export unstable_wrapCallback [provided] [no usage info] [missing usage info prevents renaming] */
 /*! other exports [not provided] [no usage info] */
 /*! runtime requirements: __webpack_exports__ */
+/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 52:26-46 */
+/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 125:13-33 */
+/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 149:24-44 */
+/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 193:15-35 */
+/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 548:28-48 */
+/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 565:25-45 */
+/*! CommonJS bailout: exports.unstable_shouldYield(...) prevents optimization as exports is passed as call context at 578:74-102 */
+/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 591:20-40 */
+/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 695:20-40 */
+/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 804:24-44 */
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -852,6 +889,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \****************************************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__.nc, __webpack_require__.* */
+/*! CommonJS bailout: module.exports is used directly at 230:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";

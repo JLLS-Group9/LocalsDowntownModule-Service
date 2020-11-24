@@ -86,7 +86,7 @@ renderfeatures(props) {
 
    return (
      <div className={styles.background}>
-       <h2 className={styles.titletext} > What Locals Say about Downtown</h2>
+       <h2 className={styles.titletext} > What Locals Say about {this.state.neighborhood}</h2>
        <h5 className={styles.ptext}> At least 133 Trulia users voted on each feature </h5>
 
         <Votes features={this.state.features} />
