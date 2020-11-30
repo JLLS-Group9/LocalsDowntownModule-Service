@@ -6,6 +6,7 @@ import Adapter from 'enzyme-adapter-react-16';
 import App from '../client/components/App.jsx';
 import Votes from '../client/components/Votes.jsx';
 import AllReviewModal from '../client/components/AllReviewModal.jsx';
+import NavBar from '../client/components/Navbar.jsx';
 
 Enzyme.configure({ adapter: new Adapter() });
 
@@ -21,6 +22,10 @@ describe('<App/>', () => {
     sinon.spy(App.prototype, 'componentDidMount');
     const wrapper = mount(<App />);
     expect(App.prototype.componentDidMount).to.have.property('callCount', 1);
+  });
+  it('renders NavBar', () => {
+    const wrapper = shallow(<Navbar />);
+    expect(wrapper).not.toBeEmptyRender();
   });
 });
 

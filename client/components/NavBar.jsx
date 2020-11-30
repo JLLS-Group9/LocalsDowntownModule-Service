@@ -15,8 +15,6 @@ class NavBar extends React.Component {
   }
 
   handleClickAll(topics) {
-    e.target.style.background = 'red';
-    console.log(topics)
    this.setState({topic: topics})
     this.props.changeTopic(topics)
 
@@ -34,7 +32,6 @@ class NavBar extends React.Component {
   }
 
   handleClickDogs(topics) {
-    console.log(topics)
     var news = [];
     for (var i = 0; i < topics.length; i++) {
       if (topics[i].topic === "Dog Owners") {
@@ -74,7 +71,6 @@ class NavBar extends React.Component {
     }
 
     changeBackground(e) {
-      console.log('hi')
       e.target.style.background = '#e1e1e1';
     }
 

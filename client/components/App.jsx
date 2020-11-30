@@ -44,13 +44,13 @@ componentDidMount() {
 retrievebooking(){
   axios.get(`${window.location.pathname}reviews`)
 
-  .then((res)=>(this.setState({record: res.data[0], property:res.data[0].name, neighborhood:res.data[0].neighborhood.name, reviews:res.data[0].neighborhood.reviews, topics:res.data[0].neighborhood.reviews}), console.log(res.data[0]), this.renderfeatures(res.data[0])))
+  .then((res)=>(this.setState({record: res.data[0], property:res.data[0].name, neighborhood:res.data[0].neighborhood.name, reviews:res.data[0].neighborhood.reviews, topics:res.data[0].neighborhood.reviews}),  this.renderfeatures(res.data[0])))
 
   .catch((err) => (console.log(err)))
 }
 
 changeTopic(event) {
- console.log(event)
+
  this.setState({reviews: event})
 }
 
@@ -75,7 +75,7 @@ hideModal() {
 
 renderAllReviewsmodal() {
   this.setState({AllReviewsmodalstate: true})
-  console.log('ive been clicked' + this.state.AllReviewsmodalstate)
+
 }
 
 renderfeatures(props) {
