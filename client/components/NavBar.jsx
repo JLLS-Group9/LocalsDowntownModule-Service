@@ -15,6 +15,7 @@ class NavBar extends React.Component {
   }
 
   handleClickAll(topics) {
+    e.target.style.background = 'red';
     console.log(topics)
    this.setState({topic: topics})
     this.props.changeTopic(topics)
@@ -74,7 +75,6 @@ class NavBar extends React.Component {
 
     changeBackground(e) {
       console.log('hi')
-      e.preventDefault();
       e.target.style.background = '#e1e1e1';
     }
 
@@ -83,20 +83,20 @@ class NavBar extends React.Component {
   return(
   <div className={style.navbar}>
     <span >
-    <button id='allbutton' className={style.allbutton}  onMouseLeave={this.changeBack}  onMouseEnter={()=>(this.changeBackground)} onClick={()=> {this.handleClickAll(this.props.topics)}}
+    <button id='allbutton' className={style.allbutton}  onMouseLeave={this.changeBack}  onMouseEnter={(this.changeBackground)} onClick={()=> {this.handleClickAll(this.props.topics)}}
     >All</button>
     </span>
     <span>
-    <button className={style.button} onMouseLeave={this.changeBack} onMouseEnter={()=>(this.changeBackground)} onClick={()=> {this.handleClickCommunity(this.props.topics)}}>Community</button>
+    <button className={style.button} onMouseLeave={this.changeBack} onMouseEnter={(this.changeBackground)} onClick={()=> {this.handleClickCommunity(this.props.topics)}}>Community</button>
     </span>
     <span>
-    <button className={style.button} onMouseLeave={this.changeBack} onMouseEnter={()=>(this.changeBackground)} onClick={()=> {this.handleClickDogs(this.props.topics)}}>Dog Owners</button>
+    <button className={style.button} onMouseLeave={this.changeBack} onMouseEnter={(this.changeBackground)} onClick={()=> {this.handleClickDogs(this.props.topics)}}>Dog Owners</button>
     </span>
     <span>
-    <button className={style.button} onMouseLeave={this.changeBack} onMouseEnter={()=>(this.changeBackground)} onClick={()=> {this.handleClickParents(this.props.topics)}}>Parents</button>
+    <button className={style.button} onMouseLeave={this.changeBack} onMouseEnter={(this.changeBackground)} onClick={()=> {this.handleClickParents(this.props.topics)}}>Parents</button>
     </span>
     <span>
-    <button className={style.button}  onMouseLeave={this.changeBack} onMouseEnter={()=>(this.changeBackground)} onClick={()=> {this.handleClickCommute(this.props.topics)}}>Commute</button>
+    <button className={style.button}  onMouseLeave={this.changeBack} onMouseEnter={(this.changeBackground)} onClick={()=> {this.handleClickCommute(this.props.topics)}}>Commute</button>
     </span>
   </div>
   )

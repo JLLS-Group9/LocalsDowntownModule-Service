@@ -11,6 +11,7 @@
   display: flexbox;
   flex-direction: row;
   margin: auto;
+  border-radius: 2%;
 
 }
 
@@ -344,16 +345,24 @@ height: 32px;
 .ModalContent { /* this is  wrapper for the modal content*/
   /* position: relative; */
   background-color:white;
-  height: 600px;
-  width:982px;
+  width: 992px;
+  height: 789px;
+  position: absolute;
+  left: 22%;
+  top: -3%;
   margin: 3rem;  /* this is roughtly 48px from top bottom */
   padding: 0;
   border: 1px solid #888;
-  border-radius: 20px;
+  border-radius: 2%;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
   display: flex;
     flex-wrap: wrap;
   overflow: scroll; /* hides anything that goes beyond the limits of modal content*/
+}
+
+.ModalContent::-webkit-scrollbar {
+  /* visibility: hidden; */
+  display: none;
 }
 
 .Modal {
@@ -368,19 +377,21 @@ height: 32px;
 
 .SingleReview {
   position: absolute;
-  left: 300px;
+  scale: 2.8;
+  left: 400px;
   top: 100px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 
 .SingleReviewModalContent {
-  background-color:transparent;
-  height: 600px;
-  width:700px;
-  position: absolute;
-  left: 25%;
 
+  background-color: rgba(0,0,0,0.4);
+  width: 992px;
+  height: 789px;
+  position: absolute;
+  left: 22%;
+  top: -3%;
   margin: 3rem;  /* this is roughtly 48px from top bottom */
   padding: 0;
   border: 1px solid #888;
@@ -389,6 +400,7 @@ height: 32px;
   display: flex;
     flex-wrap: wrap;
   overflow: scroll; /* hides anything that goes beyond the limits of modal content*/
+
 }
 
 .SingleReviewModalContent::-webkit-scrollbar {
