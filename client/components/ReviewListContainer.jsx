@@ -10,7 +10,7 @@ const ReviewListContainer = (props) => {
 
 
     return (
-      <div class={style.box}>
+      <div >
 
      <div className={style.Slider} id='container' >
 
@@ -28,7 +28,7 @@ const ReviewListContainer = (props) => {
 
       }} >  {">"} </button>
        <button className={style.slideAll} id="slideAll"  onClick = {() => {
-      console.log('hi')
+
       props.renderAllReviews();
       }} >+25</button>
       </div>
