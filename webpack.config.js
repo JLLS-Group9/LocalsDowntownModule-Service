@@ -36,7 +36,7 @@ module.exports = {
       },
     ]
   },
-  mode: 'development'
+  mode: 'production'
   // }, watch: true
 
 //'css-loader' 'style-loader'
