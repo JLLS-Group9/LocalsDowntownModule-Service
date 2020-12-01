@@ -5,8 +5,9 @@ const path = require('path');
 const fs = require('fs')
 const Promise = require('bluebird')
 const Property = require("../db/models/property.js")
+const compression = require('compression')
 
-
+app.use(compression())
 app.use('/', express.static('public'))
 app.use('/api/homes/:id/', express.static('public'))
 app.use(express.json());
