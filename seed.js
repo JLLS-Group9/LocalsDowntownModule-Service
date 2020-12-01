@@ -83,7 +83,7 @@ function AllNeighborhoods() {
 }
 
 
-const communities = ['sunset', 'mission', 'castro','sea cliff', 'chinatown', 'richmond', 'ocean', 'excelisior', 'downtown', 'monteray']
+const communities = ['Sunset', 'Mission', 'Castro','Sea Cliff', 'Chinatown', 'Richmond', 'Ocean', 'Excelisior', 'Downtown', 'Monteray']
 
 var allcom = AllNeighborhoods();
 
